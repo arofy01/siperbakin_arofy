@@ -308,7 +308,7 @@
                             <p>Memberikan Layanan Konsultasi Perencanaan Kepada Seluruh Stakeholder Pembangunan</p>
                             {{-- <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Musrembang Kecamatan</p>
                             <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Forum Gabungan Organisasi Perangkat Daerah </p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Musrembang Kabupaten</p> --}}
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Musrembang Kabupaten</p>
                             {{-- <a href="" class="btn bg-white text-primary w-100 mt-2">Selanjutnya<i class="fa fa-arrow-right text-secondary ms-2"></i></a> --}}
                         </div>
                         <div class="bg-light p-4">

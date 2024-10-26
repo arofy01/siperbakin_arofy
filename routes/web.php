@@ -33,7 +33,7 @@ Route::group(['domain' => 'sipenting.acehtamiangkab.go.id'], function () {
 
 
 Route::get('/', function () {
-    return view('beranda.sipeka.home');
+    return view('beranda.siperbakin.home');
 });
 
 
