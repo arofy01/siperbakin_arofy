@@ -1,223 +1,184 @@
-<html lang="en"><head>
-    <!-- Basic -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Site Metas -->
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Siperbakin</title>
 
-    <!-- slider stylesheet -->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-
-    <!-- bootstrap core css -->
-    <link rel="stylesheet" type="text/css" href="https://siperbakin.acehtamiangkab.go.id/storage/siperbakin_template/css/bootstrap.css">
-    <!-- fonts awesome style -->
-    <link href="https://siperbakin.acehtamiangkab.go.id/storage/siperbakin_template/css/font-awesome.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="https://siperbakin.acehtamiangkab.go.id/storage/siperbakin_template/css/style.css" rel="stylesheet">
-    <!-- responsive style -->
-    <link href="https://siperbakin.acehtamiangkab.go.id/storage/siperbakin_template/css/responsive.css" rel="stylesheet">
-
+    <!-- Stylesheets -->
+    <!-- Slider stylesheet -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://siperbakin.acehtamiangkab.go.id/storage/siperbakin_template/css/bootstrap.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://siperbakin.acehtamiangkab.go.id/storage/siperbakin_template/css/font-awesome.min.css">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="https://siperbakin.acehtamiangkab.go.id/storage/siperbakin_template/css/style.css">
+    <link rel="stylesheet" href="https://siperbakin.acehtamiangkab.go.id/storage/siperbakin_template/css/responsive.css">
+    <!-- Favicon -->
     <link rel="shortcut icon" href="https://siperbakin.acehtamiangkab.go.id/storage/siperbakin_template/images/favicon.png" type="image/png">
-
-
-    
-    <link href="https://siperbakin.acehtamiangkab.go.id/storage/sidarendu_template/lib/animate/animate.min.css" rel="stylesheet">
-    <link href="https://siperbakin.acehtamiangkab.go.id/storage/sidarendu_template/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="https://siperbakin.acehtamiangkab.go.id/storage/sidarendu_template/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet">
-    <link href="https://siperbakin.acehtamiangkab.go.id/storage/sidarendu_template/css/style.css" rel="stylesheet">
-    <link href="https://siperbakin.acehtamiangkab.go.id/storage/sidarendu_template/css/bootstrap.min.css" rel="stylesheet">
-
-
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
-
-    
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-
-    <!-- Make sure you put this AFTER Leaflet's CSS -->
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-
-    
-    <style>
-        #map {
-            height: 380px;
-        }
-    </style>
-<script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/58/10/intl/id_ALL/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/58/10/intl/id_ALL/util.js"></script></head>
+    <!-- Animation, Owl Carousel, and TempusDominus -->
+    <link rel="stylesheet" href="https://siperbakin.acehtamiangkab.go.id/storage/sidarendu_template/lib/animate/animate.min.css">
+    <link rel="stylesheet" href="https://siperbakin.acehtamiangkab.go.id/storage/sidarendu_template/lib/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://siperbakin.acehtamiangkab.go.id/storage/sidarendu_template/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css">
+    <link rel="stylesheet" href="https://siperbakin.acehtamiangkab.go.id/storage/sidarendu_template/css/style.css">
+    <link rel="stylesheet" href="https://siperbakin.acehtamiangkab.go.id/storage/sidarendu_template/css/bootstrap.min.css">
+    <!-- Leaflet Map -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+</head>
 
 <body>
-    <div class="hero_area">
-        <!-- header section strats -->
-        <header class="header_section">
-            <nav class="navbar navbar-expand-lg custom_nav-container">
-                <div class="custom_menu-btn">
-                    <button onclick="openNav()">
-                        <span class="s-1"> </span>
-                        <span class="s-2"> </span>
-                        <span class="s-3"> </span>
-                    </button>
-                </div>
-                <div id="myNav" class="overlay">
-                    <div class="menu_btn-style ">
-                        <button onclick="closeNav()">
-                            <span class="s-1"> </span>
-                            <span class="s-2"> </span>
-                            <span class="s-3"> </span>
-                        </button>
-                    </div>
-                    <div class="overlay-content">
-                        <a class="active" href="">
-                            Beranda
-                        </a>
-                        <a class="" href="">
-                            Tentang Kami
-                        </a>
-                        <a class="" href="">
-                            Layanan
-                        </a>
-                        <a class="" href="">
-                            Testimoni
-                        </a>
-                        <a class="" href="">
-                            Berita Terbaru
-                        </a>
-                        <a class="" href="">
-                            Hubungi Kami
-                        </a>
-                        <a class="" href="/login">
-                            Login
-                        </a>
-                    </div>
-                </div>
-                <a class="navbar-brand" href="index.html">
-                    <span>
-                        Perbakin
-                    </span>
-                </a>
-                <div class="user_option">
-                    <form class="form-inline">
-                        <button class="btn  nav_search-btn" type="submit">
-                            <i class="fa fa-search" aria-hidden="true"></i>
-                        </button>
-                    </form>
-                    <a href="">
-                        <i class="fa fa-user" aria-hidden="true"></i>
-                    </a>
-                </div>
-                <div class="name_style">
-                    
-                </div>
-            </nav>
-        </header>
-        <!-- end header section -->
-        <!-- slider section -->
-        <section class="slider_section position-relative">
-            <div class="box">
-                <div class="detail-box">
-                    <a class="navbar-brand" href="index.html">
-                        <span>
-                            Siperbakin
-                        </span>
-                    </a>
-                    <div class="carousel slide slider_text_carousel" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="heading_box">
-                                  <nav class="nav">
-        <div class="container">
-            <div class="logo">
-                <a href="#"></a>
+    <!-- Navigation -->
+    <nav tampilan>
+        <a href="{{ asset('logo.png') }}"> 
+            <img src="{{ asset('logo.png') }}" alt="Logo" style="width:100px; height:auto;">
+            <b style="color: white; font-size: 24px;">BAPPEDA ACEH TAMIANG</b></a>
+        {{-- <a class="custom_menu-btn">
+            <button onclick="openNav()">
+                <span class="s-1"></span>
+                <span class="s-2"></span>
+                <span class="s-3"></span>
+            </button>
+        </a> --}}
+        <a href="#home">beranda</a>
+        <a href="#about">Tentang kami</a>
+        <button id="scrollToNews"> Berita Terbaru</button>
+        {{-- <a href="#news">Berita Terbaru</a> --}}
+        <a><button id="scrollToContact">kontak</button></a>
+        {{-- <a href="#contact">Kontak</a> --}}
+        <a href="/login"><button type="button" class="btn btn-success">Login</button></a>
+        {{-- <div id="myNav" class="overlay">
+            <div class="menu_btn-style">
+                <button onclick="closeNav()">
+                    <span class="s-1"></span>
+                    <span class="s-2"></span>
+                    <span class="s-3"></span>
+                </button>
             </div>
-            <div id="mainListDiv" class="main_list">
-                <ul class="navlinks">
-                    <li><a href="#">Beranda</a></li>
-                    <li><a href="#">Tentang kami</a></li>
-                    <li><a href="#">layanan</a></li>
-									<li><button><a href="#">Login</a></button></li>
-                </ul>
+            <div class="overlay-content">
+                <a href="#home">Beranda</a>
+                <a href="#about">Tentang Kami</a>
+                <a href="#services">Layanan</a>
+                <a href="#testimonials">Testimoni</a>
+                <a href="#news">Berita Terbaru</a>
+                <a href="#contact">Hubungi Kami</a>
+                <a href="/login">Login</a>
+                
             </div>
-            <span class="navTrigger">
-                <i></i>
-                <i></i>
-                <i></i>
-            </span>
-        </div>
+        </div> --}}
     </nav>
 
-    <section class="home">
-    </section>
-    <div style="height: 1000px">
-                                    <h1>
-                                        <span>
-                                            Sistem
-                                        </span>
-                                        <span>
-                                            Informasi
-                                        </span>
-                                        <span>
-                                            Perencanaan
-                                        </span>
-                                        <span>
-                                            Berbasis
-                                        </span>
-                                        <span>
-                                            Koordinat
-                                        </span>
-                                    </h1>
-                                </div>
-                            </div>
+    <style>
+        nav[tampilan] {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.5); /* Transparan hitam */
+            color: #221a1a;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+  
+        }
+        nav[tampilan] a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            padding: 8px ;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        nav[tampilan] a:hover {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+    </style>
 
-                            <div class="carousel-item">
-                                <div class="heading_box">
-                                    <h1>
-                                        <span>
+    <!-- Header Section -->
+    {{-- <header class="header_section">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+            <a class="navbar-brand" href="index.html">
+                <span>Siperbakin</span>
+            </a>
+            {{-- <div class="custom_menu-btn">
+                <button onclick="openNav()">
+                    <span class="s-1"></span>
+                    <span class="s-2"></span>
+                    <span class="s-3"></span>
+                </button>
+            </div> --}}
+            <div id="myNav" class="overlay">
+                <div class="menu_btn-style">
+                    <button onclick="closeNav()">
+                        <span class="s-1"></span>
+                        <span class="s-2"></span>
+                        <span class="s-3"></span>
+                    </button>
+                </div>
+                <div class="overlay-content">
+                    <a href="#home">Beranda</a>
+                    <a href="#about">Tentang Kami</a>
+                    <a href="#services">Layanan</a>
+                    <a href="#testimonials">Testimoni</a>
+                    <a href="#news">Berita Terbaru</a>
+                    <a href="#contact">Hubungi Kami</a>
+                    <a href="/login">Login</a>
+                </div>
+            </div>
+            {{-- <div class="user_option">
+                <form class="form-inline">
+                    <button class="btn nav_search-btn" type="submit">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                </form>
+                <a href="#">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </a>
+            </div> --}}
+        </nav>
+    {{-- </header> --}}
 
-                                            Menyajikan Data Infrastruktur
-                                        </span>
-                                        <span>
-                                            Perumahan dan
-                                        </span>
-                                        <span>
-                                            Pemukiman
-                                        </span>
-
-                                    </h1>
-                                </div>
-                            </div>
-
-                            
-
-                            <div class="carousel-item">
-                                <div class="heading_box">
-                                    <h1>
-                                        <span>
-                                            Menyajikan data Infrastuktur Perhubungan
-                                        </span>
-                                        <span>
-                                            Transportasi dan
-                                        </span>
-                                      
-                                        <span>
-                                            Komunikasi
-                                        </span>
-
-                                    </h1>
-                                </div>
-                            </div>
-
-
-                            
-
-                        </div>
+    <!-- Slider Section -->
+    <section class="slider_section">
+        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="heading_box">
+                        <h1>
+                            <span>Sistem</span>
+                            <span>Informasi</span>
+                            <span>Perencanaan</span>
+                            <span>Berbasis</span>
+                            <span>Koordinat</span>
+                        </h1>
                     </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="heading_box">
+                        <h1>
+                            <span>Menyajikan Data Infrastruktur</span>
+                            <span>Perumahan dan</span>
+                            <span>Pemukiman</span>
+                        </h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="heading_box">
+                        <h1>
+                            <span>Menyajikan Data Infrastruktur</span>
+                            <span>Perhubungan, Transportasi</span>
+                            <span>dan Komunikasi</span>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
 
 
                     
@@ -417,7 +378,7 @@
                         </div>
                         <div class="team-text">
                             <div class="bg-light">
-                                <h5 class="fw-bold mb-0">Tanrizal, ST</h5>
+                                <h5 class="fw-bold mb-0">Feri Darmawan</h5>
                                 <small>Perencana Ahli&nbsp;Muda</small>
                             </div>
                             <div class="bg-primary">
@@ -436,7 +397,28 @@
                         </div>
                         <div class="team-text">
                             <div class="bg-light">
-                                <h5 class="fw-bold mb-0">Feri Darmawan
+                                <h5 class="fw-bold mb-0">Tanrizal S.T
+                                </h5>
+                                <small>Pengadministrasi&nbsp;umum</small>
+                            </div>
+                            <div class="bg-primary">
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="https://siperbakin.acehtamiangkab.go.id/storage/siperbakin_template/images/team-7.jpg" alt="">
+                        </div>
+                        <div class="team-text">
+                            <div class="bg-light">
+                                <h5 class="fw-bold mb-0">
                                 </h5>
                                 <small>Pengadministrasi&nbsp;umum</small>
                             </div>
@@ -641,7 +623,7 @@
         <div class="container">
             <div class="heading_container">
                 <h2>
-                    TESTIMONI
+                    KETUA
                 </h2>
             </div>
             <div class="carousel-wrap ">
@@ -1046,6 +1028,17 @@
         //     [51.503, -0.06],
         //     [51.51, -0.047]
         // ]).addTo(map);
+
+        // Tambahkan event listener untuk tombol scroll
+        document.getElementById('scrollToContact').addEventListener('click', function () {
+            const contactSection = document.querySelector('.contact_section');
+            contactSection.scrollIntoView({ behavior: 'smooth' });
+        });
+        document.getElementById('scrollToNews').addEventListener('click', function () {
+            const newsSection = document.querySelector('.news_section');
+            newsSection.scrollIntoView({ behavior: 'smooth' });
+        });
+
     </script>
 
 
