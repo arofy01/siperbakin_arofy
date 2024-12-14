@@ -400,7 +400,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLzZIerDGvKtYf7BIS8CGMIoQOzhHYSqgwajVTBoXIGUL7mKLbfO5iYmvo9RgSNoOboA8cabC-ys9m4K5LT1KCqbB_kn4W-h2wAb-fFkLJ6oA3-0pTM0ZVbqVB1XdHumpJ28G51m-fFrbTxeYgqsca6bGoPqwtQPqWMNb9GfhgSmGGL_4g2YQG45W2by4/s622/RURY%20ANDI%20NATHA%20ASMARA,%20ST.png" alt="" style="width: 100%; height: 300px; object-fit: cover;">
+                            <img class="img-fluid" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLzZIerDGvKtYf7BIS8CGMIoQOzhHYSqgwajVTBoXIGUL7mKLbfO5iYmvo9RgSNoOboA8cabC-ys9m4K5LT1KCqbB_kn4W-h2wAb-fFkLJ6oA3-0pTM0ZVbqVB1XdHumpJ28G51m-fFrbTxeYgqsca6bGoPqwtQPqWMNb9GfhgSmGGL_4g2YQG45W2by4/s622/RURY%20ANDI%20NATHA%20ASMARA,%20ST.png" alt=""  style="width: 100%; height: 300px; object-fit: ;">
                         </div>
                         <div class="team-text">
                             <div class="bg-light">
