@@ -37,15 +37,7 @@
                     <div class="container">
                         <div class="logo">
 
-                            @if (request()->getHost() === 'sipeka.acehtamiangkab.go.id')
-                                <a href="/user/opd/bappeda/aplikasi/sipeka/dashboard"><img
-                                        src="{{ asset('') }}storage/admin_template/mazer/assets/images/logo/logo-sipeka.svg"
-                                        alt="Logo">
-                                </a>
-                            @elseif(request()->getHost() === 'sidarendu.acehtamiangkab.go.id')
-                                <a href="/user/opd/bappeda/aplikasi/sipeka/dashboard"><img
-                                        src="{{ asset('') }}storage/admin_template/mazer/assets/images/logo/logo-sidarendu.svg"
-                                        alt="Logo">
+                  
                                 </a>
                             @elseif(request()->getHost() === 'siperbakin.acehtamiangkab.go.id')
                                 <a href="/user/opd/bappeda/aplikasi/sipeka/dashboard"><img

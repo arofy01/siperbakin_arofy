@@ -4,61 +4,272 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Mazer Admin Dashboard</title>
-    <link rel="stylesheet" href="assets/css/main/app.css">
-    <link rel="stylesheet" href="assets/css/pages/auth.css">
-    <link rel="shortcut icon" href="assets/images/logo/favicon.svg" type="image/x-icon">
-    <link rel="shortcut icon" href="assets/images/logo/favicon.png" type="image/png">
+
+            <title>Login- Siperbakin</title>
+    
+
+    
+    <link rel="stylesheet" href="https://siperbakin.acehtamiangkab.go.id/storage/admin_template/mazer/assets/css/main/app.css">
+    <link rel="stylesheet" href="https://siperbakin.acehtamiangkab.go.id/storage/admin_template/mazer/assets/css/pages/auth.css">
+    <link rel="shortcut icon" href="https://siperbakin.acehtamiangkab.go.id/storage/admin_template/mazer/assets/images/logo/favicon.svg"
+        type="image/x-icon">
+    <link rel="shortcut icon" href="https://siperbakin.acehtamiangkab.go.id/storage/admin_template/mazer/assets/images/logo/favicon.png"
+        type="image/png">
+    <link rel="stylesheet" href="https://siperbakin.acehtamiangkab.go.id/storage/admin_template/mazer/assets/css/shared/iconly.css">
+
+
+    <style>
+        #gambarlogin {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('storage/siperbakin_template/images/nama_gambar.jpg');
+            background-size: cover;
+            background-position: center center;
+            width: 100%;
+            height: 100vh; /* Adjust the height as needed */
+        }
+    </style>
+    
+  
+    
+
+
+
 </head>
 
 <body>
     <div id="auth">
-        
-<div class="row h-100">
-    <div class="col-lg-5 col-12">
-        <div id="auth-left">
-            <div class="auth-logo">
-                <a href="index.html"><img src="assets/images/logo/logo.svg" alt="Logo"></a>
-            </div>
-            <h1 class="auth-title">Log in.</h1>
-            <p class="auth-subtitle mb-5">Log in with your data that you entered during registration.</p>
+        <div class="row h-100">
+            <div class="col-lg-5 col-12">
+                <div id="auth-left">
+                    
 
-            <form action="index.html">
-                <div class="form-group position-relative has-icon-left mb-4">
-                    <input type="text" class="form-control form-control-xl" placeholder="Username">
-                    <div class="form-control-icon">
-                        <i class="bi bi-person"></i>
-                    </div>
-                </div>
-                <div class="form-group position-relative has-icon-left mb-4">
-                    <input type="password" class="form-control form-control-xl" placeholder="Password">
-                    <div class="form-control-icon">
-                        <i class="bi bi-shield-lock"></i>
-                    </div>
-                </div>
-                <div class="form-check form-check-lg d-flex align-items-end">
-                    <input class="form-check-input me-2" type="checkbox" value="" id="flexCheckDefault">
-                    <label class="form-check-label text-gray-600" for="flexCheckDefault">
-                        Keep me logged in
-                    </label>
-                </div>
-                <button class="btn btn-primary btn-block btn-lg shadow-lg mt-5">Log in</button>
-            </form>
-            <div class="text-center mt-5 text-lg fs-4">
-                <p class="text-gray-600">Don't have an account? <a href="auth-register.html" class="font-bold">Sign
-                        up</a>.</p>
-                <p><a class="font-bold" href="auth-forgot-password.html">Forgot password?</a>.</p>
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-7 d-none d-lg-block">
-        <div id="auth-right">
+                                            <h5 class="text-center">SIPERBAKIN</h5>
+                        <h5 class="text-center">KABUPATEN ACEH TAMIANG</h5>
+                    
+                    
 
+                    <br>
+
+                    
+                    
+                    <br>
+
+                    <form method="POST" action="https://siperbakin.acehtamiangkab.go.id/login-post">
+                        <input type="hidden" name="_token" value="P3hCiLyxIvQGW0SlLqgIfhn6NS5y20A72ft3ldif" autocomplete="off">                        <div class="form-group position-relative has-icon-left mb-4">
+                            <input type="email" id="email" name="email" class="form-control form-control-sm"
+                                placeholder="Email">
+                            <div class="form-control-icon">
+                                <i class="bi bi-envelope"></i>
+                            </div>
+
+                            
+                        </div>
+
+
+
+                        <div class="form-group position-relative has-icon-left mb-4">
+                            <input type="password" id="password" name="password" class="form-control form-control-sm"
+                                placeholder="Password">
+                            <div class="form-control-icon">
+                                <i class="bi bi-shield-lock"></i>
+                            </div>
+
+                            
+                        </div>
+
+
+                        <button class="btn btn-primary btn-block btn-sm shadow-lg mt-3">Log in</button>
+                    </form>
+                </div>
+            </div>
+
+
+            <div class="col-lg-7 d-none d-lg-block">
+
+                                    <div id="gambarlogin"
+                       
+                    </div>
+                
+            </div>
+
+            
+            <div class="js-cookie-consent cookie-consent fixed-bottom bg-primary p-2 text-light text-center">
+    <div class="max-w-7xl mx-auto px-6">
+        <div class="p-2 rounded-lg bg-yellow-100">
+            <div class="flex items-center justify-between flex-wrap">
+                <div class="w-0 flex-1 items-center hidden md:inline">
+                    <p class="ml-3 text-white cookie-consent__message">
+                        Website ini menggunakan cookies untuk pelayanan terbaik bagi penggunanya.
+                    </p>
+                </div>
+                <div class="mt-2 flex-shrink-0 w-full sm:mt-0 sm:w-auto">
+                    <button class="btn btn-sm btn-warning js-cookie-consent-agree cookie-consent__agree cursor-pointer flex items-center justify-center px-4 py-2 rounded-md text-sm font-medium text-yellow-800 bg-yellow-400 hover:bg-yellow-300">
+                        Izinkan Cookies
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
+    <script>
+
+        window.laravelCookieConsent = (function () {
+
+            const COOKIE_VALUE = 1;
+            const COOKIE_DOMAIN = 'siperbakin.acehtamiangkab.go.id';
+
+            function consentWithCookies() {
+                setCookie('laravel_cookie_consent', COOKIE_VALUE, 7300);
+                hideCookieDialog();
+            }
+
+            function cookieExists(name) {
+                return (document.cookie.split('; ').indexOf(name + '=' + COOKIE_VALUE) !== -1);
+            }
+
+            function hideCookieDialog() {
+                const dialogs = document.getElementsByClassName('js-cookie-consent');
+
+                for (let i = 0; i < dialogs.length; ++i) {
+                    dialogs[i].style.display = 'none';
+                }
+            }
+
+            function setCookie(name, value, expirationInDays) {
+                const date = new Date();
+                date.setTime(date.getTime() + (expirationInDays * 24 * 60 * 60 * 1000));
+                document.cookie = name + '=' + value
+                    + ';expires=' + date.toUTCString()
+                    + ';domain=' + COOKIE_DOMAIN
+                    + ';path=/'
+                    + ';samesite=lax';
+            }
+
+            if (cookieExists('laravel_cookie_consent')) {
+                hideCookieDialog();
+            }
+
+            const buttons = document.getElementsByClassName('js-cookie-consent-agree');
+
+            for (let i = 0; i < buttons.length; ++i) {
+                buttons[i].addEventListener('click', consentWithCookies);
+            }
+
+            return {
+                consentWithCookies: consentWithCookies,
+                hideCookieDialog: hideCookieDialog
+            };
+        })();
+    </script>
+
+
+        </div>
     </div>
+
+
+
+
+    
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+
+                        <p>SELAMAT DATANG</p>
+                    </div>
+                    <img id="modalImage" src="" alt="Gambar Modal" style="max-width: 100%;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://siperbakin.acehtamiangkab.go.id/storage/admin_template/mazer/assets/js/bootstrap.js"></script>
+    
+
+
+
+    <script>
+        // Fungsi untuk mendapatkan kutipan dari API
+        // function getQuote() {
+        //     var apiUrl = "https://quotes.rest/qod"; // URL API untuk mendapatkan kutipan hari ini
+
+        //     // Permintaan JSONP ke API menggunakan jQuery
+        //     $.ajax({
+        //         url: apiUrl,
+        //         dataType: 'jsonp',
+        //         headers: {
+        //             "X-TheySaidSo-Api-Secret": "DmJ3IbpCZVoKtSp1iZ9iuiFgQKbUkcjA2mhxPBXt"
+        //         },
+        //         success: function(response) {
+        //             var quote = response.contents.quotes[0].quote;
+        //             var author = response.contents.quotes[0].author;
+        //             var imageUrl = response.contents.quotes[0].background;
+
+        //             // Menampilkan kutipan dan pengarang di atas gambar modal
+        //             $('#quoteText').text(quote);
+        //             $('#quoteAuthor').text(author);
+
+        //             // Mengganti gambar modal dengan gambar kutipan
+        //             $('#modalImage').attr('src', imageUrl);
+
+        //             // Menampilkan modal
+        //             $('#myModal').modal('show');
+        //         },
+        //         error: function(xhr, status, error) {
+        //             console.log(error);
+        //         }
+        //     });
+        // }
+
+        // // Panggil fungsi untuk mendapatkan kutipan saat halaman selesai dimuat
+        // $(document).ready(function() {
+        //     getQuote();
+        // });
+
+
+
+
+
+
+        // Fungsi untuk menampilkan modal setelah penundaan
+        function showDelayedModal() {
+            setTimeout(function() {
+                var imageUrl =
+                    "https://picsum.photos/800/600"; // Menghasilkan gambar acak dengan ukuran 800x600 piksel
+
+                $('#modalImage').attr('src', imageUrl);
+                $('#myModal').modal('show');
+
+                // $('#myModal').modal({
+                //     backdrop: true,
+                //     keyboard: false
+                // });
+
+            }, 1000); // Waktu penundaan dalam milidetik (misalnya 5000 untuk 5 detik)
+        }
+
+        // Panggil fungsi untuk menampilkan modal setelah halaman selesai dimuat
+        // $(document).ready(function() {
+        //     showDelayedModal();
+        // });
+    </script>
+
+
+
+
+
 </body>
 
 </html>
